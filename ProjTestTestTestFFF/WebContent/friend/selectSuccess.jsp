@@ -43,7 +43,7 @@
 				<tr>
 					<td>${row.friendId}</td>
 					
-					<td><a href="${pageContext.request.contextPath}/friend/updateFriend.do"/> <input type="button" value="確認"></a></td>
+					<td><a href="${pageContext.request.contextPath}/friend/updateFriend.do"/> <input type="button" name="${row.friendId}" value="確認"></a></td>
 				</tr>
 			</c:if>	
 		</c:forEach>							
